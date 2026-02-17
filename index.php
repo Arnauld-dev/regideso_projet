@@ -16,6 +16,26 @@
         </section>
 
         <section class="services-container">
+            <div class="service-card">
+                
+                <h3>Production d'eau</h3>
+                <p>Production d'eau potable à partir de sources variées</p>
+            </div>
+            <div class="service-card">
+                
+                <h3>Production d'électricité</h3>
+                <p>Production d'électricité à partir de sources variées</p>
+            </div>
+            <div class="service-card">
+                
+                <h3>Distribution d'eau</h3>
+                <p>Distribution d'eau potable à partir de sources variées</p>
+            </div>
+            <div class="service-card">
+                
+                <h3>Distribution d'électricité</h3>
+                <p>Distribution d'électricité à partir de sources variées</p>
+            </div>
            
         </section>
     </div>
