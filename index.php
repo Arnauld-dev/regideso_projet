@@ -17,26 +17,30 @@
 
         <section class="services-container">
             <div class="service-card">
-                
+                <img src="assets\image\production_eau.jpg" alt="Production d'eau" class="service-image">
                 <h3>Production d'eau</h3>
+                <div class="line"></div>
                 <p>Production d'eau potable à partir de sources variées</p>
             </div>
             <div class="service-card">
-                
+                <img src="assets\image\electrique.jpeg" alt="Production d'électricité" class="service-image">
                 <h3>Production d'électricité</h3>
+                <div class="line"></div>
                 <p>Production d'électricité à partir de sources variées</p>
             </div>
             <div class="service-card">
-                
+                <img src="assets\image\eau.jpg" alt="Distribution d'eau" class="service-image">
                 <h3>Distribution d'eau</h3>
+                <div class="line"></div>
                 <p>Distribution d'eau potable à partir de sources variées</p>
             </div>
             <div class="service-card">
-                
+                <img src="assets\image\electricity.jpg" alt="Production d'électricité" class="service-image">
                 <h3>Distribution d'électricité</h3>
+                <div class="line"></div>
                 <p>Distribution d'électricité à partir de sources variées</p>
             </div>
-           
+
         </section>
     </div>
 </main>

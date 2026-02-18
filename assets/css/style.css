@@ -210,7 +210,7 @@ form button {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease;
-    height: 200px;
+    height: 450px;
     justify-content: center;
     align-items: center;
     border-top: 1px solid red;
@@ -229,6 +229,20 @@ form button {
 
 .service-card p {
     color: #555;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(253, 221, 12);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.service-image {
+    width: 220px;
+    height: 150px;
+    margin-bottom: 10px;
 }
 
 /* Responsive Design */
