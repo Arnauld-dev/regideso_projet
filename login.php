@@ -21,15 +21,21 @@ if(isset($_POST['submit'])){
 }
 ?>
 <?php include 'includes/header.php';?>
-<div style="color: red; text-align: center; margin-top: 20px;">
-    <?php if(isset($error_message)) echo $error_message; ?>
-</div>
 
-   <form action="" method="post">
-    <label for="username">Username</label>
-    <input type="text" name="username" required>
-    <label for="password">Password</label>
-    <input type="password" name="password" required>
-    <button type="submit" name="submit">login</button>
-   </form>
+<main class="main-content">
+    <div class="container">
+        <?php if(isset($error_message)): ?>
+            <div class="error-message"><?php echo htmlspecialchars($error_message); ?></div>
+        <?php endif; ?>
+
+        <form action="" method="post">
+            <label for="username">Nom d'utilisateur</label>
+            <input type="text" id="username" name="username" placeholder="Entrez votre nom d'utilisateur" required>
+            <label for="password">Mot de passe</label>
+            <input type="password" id="password" name="password" placeholder="Entrez votre mot de passe" required>
+            <button type="submit" name="submit">Se connecter</button>
+        </form>
+    </div>
+</main>
+
 <?php include 'includes/footer.php';?>

@@ -27,9 +27,34 @@
 
 <nav class="black-nav">
     <div class="container">
-        <ul>
+        <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul id="nav-menu">
             <li><a href="index.php" class="active">ACCUEIL</a></li>
             <li><a href="login.php">CONNEXION</a></li>
         </ul>
     </div>
 </nav>
+
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+
+    hamburger.addEventListener('click', function () {
+        const isOpen = navMenu.classList.toggle('nav-open');
+        hamburger.classList.toggle('open', isOpen);
+        hamburger.setAttribute('aria-expanded', isOpen);
+    });
+
+    // Fermer le menu quand on clique sur un lien
+    navMenu.querySelectorAll('a').forEach(function(link) {
+        link.addEventListener('click', function() {
+            navMenu.classList.remove('nav-open');
+            hamburger.classList.remove('open');
+            hamburger.setAttribute('aria-expanded', 'false');
+        });
+    });
+</script>
